@@ -12,7 +12,7 @@ highlight MatchParen ctermbg=blue
 highlight Normal ctermbg=None
 
 " Tab Bindings
-nnoremap <silent> <Esc><Tab> :tabedit<CR>
+nnoremap <silent> <Esc>t :tabedit<CR>
 nnoremap <Esc>1 1gt
 nnoremap <Esc>2 2gt
 nnoremap <Esc>3 3gt
