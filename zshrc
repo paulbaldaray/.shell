@@ -2,13 +2,13 @@
 ### PROMPT ###
 bindkey -v
 KEYTIMEOUT=1
-pstart="%F{1}["
-pname="%F{3}%n"
-psep="%F{2}@"
-pmachine="%F{6}%m"
-ppwd="%F{4}%1~"
-pend="%F{5}]"
-pprompt="%F{7}%#"
+pstart="%F{9}["
+pname="%F{11}%n"
+psep="%F{10}@"
+pmachine="%F{14}%m"
+ppwd="%F{12}%1~"
+pend="%F{13}]"
+pprompt="%F{15}%#"
 PS1="$pstart$pname$psep$pmachine $ppwd$pend$pprompt "
 function zle-line-init zle-keymap-select {
 	echo -ne "${${KEYMAP/vicmd/\e[1 q}/(main|viins)/\e[5 q}"
