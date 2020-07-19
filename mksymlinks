@@ -1,0 +1,8 @@
+#!/bin/bash
+SETUPDIR="$HOME/dotfiles"
+FILES="bash_profile bashrc zprofile zshrc vimrc"
+for file in $FILES; do
+	[ -L "$HOME/.$file" ] && rm "$HOME/.$file"
+	[ -e "$HOME/.$file" ] && rm -i "$HOME/.$file"
+	ln -s "$SETUPDIR/$file" "$HOME/.$file"
+done
