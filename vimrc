@@ -6,7 +6,7 @@ set backspace=1
 set number relativenumber
 set shiftwidth=2 tabstop=2 noexpandtab
 set autoindent smarttab
-set list listchars=trail:_,tab:›\ 
+set list listchars=trail:_,tab:>\ 
 
 highlight MatchParen ctermbg=blue
 highlight Normal ctermbg=None
