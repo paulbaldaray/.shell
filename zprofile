@@ -1,1 +1,1 @@
-source $HOME/dotfiles/profile
+source $HOME/.profile

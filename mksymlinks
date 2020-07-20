@@ -1,6 +1,6 @@
 #!/bin/bash
-SETUPDIR="$HOME/dotfiles"
-FILES="bash_profile bashrc zprofile zshrc vimrc"
+SETUPDIR="$HOME/.shell"
+FILES="bash_profile bashrc zprofile zshrc vimrc profile"
 for file in $FILES; do
 	[ -L "$HOME/.$file" ] && rm "$HOME/.$file"
 	[ -e "$HOME/.$file" ] && rm -i "$HOME/.$file"

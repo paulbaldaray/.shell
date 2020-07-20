@@ -1,2 +1,2 @@
-source $HOME/dotfiles/profile
-source $HOME/dotfiles/bashrc
+source $HOME/.profile
+source $HOME/.bashrc

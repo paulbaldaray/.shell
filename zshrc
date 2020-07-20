@@ -1,6 +1,6 @@
 ### ALIASES ###
 ### SOURCE ###
-ZDIR="$DOTDIR/zsh"
+ZDIR="$SHELLDIR/zsh"
 source "$ZDIR/git.zsh"
 source "$ZDIR/prompt.zsh"
 ### BINDS ###
