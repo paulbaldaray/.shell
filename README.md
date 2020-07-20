@@ -1,6 +1,7 @@
 # Dotfiles
 
-These are my core dotfiles that I use on my linux builds.
+These are my shell dot files that I use on my linux builds. The dot files in my
+home directory are managed throught symbolic links.
 
 ## mksymlinks
 
