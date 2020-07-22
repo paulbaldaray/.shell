@@ -1,4 +1,5 @@
 ### ALIASES ###
+alias ls='ls --color=tty'
 ### SOURCE ###
 ZDIR="$SHELLDIR/zsh"
 source "$ZDIR/git.zsh"
