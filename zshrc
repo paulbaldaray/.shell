@@ -1,9 +1,8 @@
-### ALIASES ###
-alias ls='ls --color=tty'
 ### SOURCE ###
 ZDIR="$SHELLDIR/zsh"
 source "$ZDIR/git.zsh"
 source "$ZDIR/prompt.zsh"
+source "$ZDIR/alias.zsh"
 ### BINDS ###
 bindkey -v
 autoload -U edit-command-line
