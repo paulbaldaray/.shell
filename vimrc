@@ -33,7 +33,7 @@ nnoremap <Esc>l <C-w>l
 
 " Misc Bindings
 nnoremap z za
-nnoremap <silent> <Esc>e :Explore<CR>
+nnoremap <silent> <Esc>e :e .<CR>
 nnoremap <silent> <Esc>c :ColorToggle<CR>
 nnoremap <silent> <Esc>v :set number! relativenumber! list! paste!<CR>
 nnoremap <silent> <Esc>q :q<CR>
