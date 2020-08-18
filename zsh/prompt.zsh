@@ -17,6 +17,22 @@ function NEWLINE-toggle() {
 	[ -z "$NEWLINE" ] && NEWLINE=$'\n' || NEWLINE=""
 	zle reset-prompt
 }
+function SHOWGIT-toggle() {
+	if [ -z "$SHOWGIT" ]; then
+		SHOWGIT="true"
+		zstyle ':vcs_info:git:*' check-for-changes false
+		PROMPT="$pstart$pname$psep$pmachine $ppwd$pend\$NEWLINE$pprompt "
+	else
+		SHOWGIT=""
+		zstyle ':vcs_info:git:*' check-for-changes true
+		precmd_vcs_info
+		PROMPT="$pstart$pname$psep$pmachine $ppwd$pend\$(print_vcs)\$NEWLINE$pprompt "
+	fi
+	zle reset-prompt
+}
+NEWLINE=""
 zle -N NEWLINE-toggle
+SHOWGIT=""
+zle -N SHOWGIT-toggle
 zle -N zle-line-init
 zle -N zle-keymap-select
