@@ -5,6 +5,7 @@ export PATH="$PATH:$HOME/.cargo/bin"
 ### ENVIRONMENT ###
 export SHELLDIR="$HOME/.shell"
 export PYTHONDONTWRITEBYTECODE=1
+export SWPDIR="$HOME/.local/share/nvim/swap"
 ### APPLICATIONS ###
 export TERMINAL="st"
 export EDITOR="nvim"
