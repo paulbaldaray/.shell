@@ -4,6 +4,7 @@ export PATH="$PATH:$HOME/.private/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
 ### ENVIRONMENT ###
 export SHELLDIR="$HOME/.shell"
+export PYTHONDONTWRITEBYTECODE=1
 ### APPLICATIONS ###
 export TERMINAL="st"
 export EDITOR="nvim"
