@@ -3,7 +3,6 @@ export PATH="$PATH:$HOME/Bin"
 export PATH="$PATH:$HOME/.private/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
 ### ENVIRONMENT ###
-export SHELLDIR="$HOME/.shell"
 export PYTHONDONTWRITEBYTECODE=1
 export SWPDIR="$HOME/.local/share/nvim/swap"
 ### APPLICATIONS ###

@@ -1,5 +1,5 @@
 ### SOURCE ###
-ZDIR="$SHELLDIR/zsh"
+ZDIR="~/.shell/zsh"
 source "$ZDIR/git.zsh"
 source "$ZDIR/prompt.zsh"
 source "$ZDIR/alias.zsh"
