@@ -1,8 +1,7 @@
 ### SOURCE ###
-ZDIR="~/.shell/zsh"
-source "$ZDIR/git.zsh"
-source "$ZDIR/prompt.zsh"
-source "$ZDIR/alias.zsh"
+source ~/.shell/zsh/git.zsh
+source ~/.shell/zsh/prompt.zsh
+source ~/.shell/zsh/alias.zsh
 ### BINDS ###
 bindkey -v
 autoload -U edit-command-line
