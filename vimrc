@@ -1,12 +1,14 @@
 syntax on
-colorscheme pablo
+colorscheme torte
 set background=dark
 
 set backspace=1
 set number relativenumber
 set shiftwidth=2 tabstop=2 noexpandtab
 set autoindent smarttab
+set nohlsearch incsearch ignorecase smartcase
 set list listchars=trail:_,tab:>\ 
+let g:netrw_keepdir = 0
 
 highlight MatchParen ctermbg=blue
 highlight Normal ctermbg=None
